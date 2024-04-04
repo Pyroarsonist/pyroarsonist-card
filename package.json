@@ -1,44 +1,18 @@
 {
-  "name": "nodejs-boilerplate",
+  "name": "pyroarsonist",
   "author": "Pyroarsonist <velikiydan@gmail.com>",
   "license": "MIT",
-  "version": "1.2.0",
-  "description": "Node.js boilerplate",
-  "main": "main.js",
+  "version": "1.0.0",
+  "description": "NPX business card",
+  "main": "src/main.js",
+  "bin": "src/cli.js",
   "keywords": [
-    "boilerplate",
-    "node",
-    "js",
-    "babel"
+    "business card"
   ],
-  "scripts": {
-    "start": "DEBUG=app:* nodemon --exec babel-node src/main.js",
-    "lint": "eslint . --ignore-path .gitignore --fix",
-    "build": "rm -rf build && babel src -d build --ignore .gitignore --source-maps",
-    "start:prod": "node -r @babel/register ./build/main.js"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.23.4",
-    "@babel/core": "^7.23.6",
-    "@babel/eslint-parser": "^7.23.3",
-    "@babel/eslint-plugin": "^7.23.5",
-    "@babel/node": "^7.22.19",
-    "@babel/preset-env": "^7.23.6",
-    "@babel/register": "^7.22.15",
-    "babel-plugin-root-import": "^6.6.0",
-    "eslint": "8.56.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-import": "^0.13.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-config-pyroarsonist": "^0.0.3",
-    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-prettier": "^5.1.2",
-    "nodemon": "^3.0.2",
-    "prettier": "^3.1.1"
-  },
+  "type": "module",
   "dependencies": {
-    "debug": "^4.3.4",
-    "dotenv": "^16.3.1"
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "terminal-link": "^3.0.0"
   }
 }
