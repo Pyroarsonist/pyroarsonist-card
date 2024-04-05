@@ -8,6 +8,6 @@ export const data = {
 };
 
 export const figletOptions = {
-  font: "colossal",
+  font: "Colossal",
   width: 120,
 };
