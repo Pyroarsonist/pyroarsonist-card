@@ -2,7 +2,7 @@
   "name": "pyroarsonist",
   "author": "Pyroarsonist <velikiydan@gmail.com>",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPX business card",
   "main": "src/main.js",
   "bin": "src/cli.js",
